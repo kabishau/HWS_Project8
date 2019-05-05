@@ -5,13 +5,8 @@ Steps:
 
 
 
-
-
-
-
-
 Comments:
-- UIKit has some guides that can be used safeAreaLayoutGuide and layoutMarginsGuide
+- UIKit has some guides that can be used: safeAreaLayoutGuide and layoutMarginsGuide
 - NSLayoutConstraint.activate() allow to activate an array of constraints vs setting .isActive = true for each one
 - if you don't want to adjust buttons later you don't need to create properties for buttons
 - by default auto layout uses view's intrinsic content size this can changed using:

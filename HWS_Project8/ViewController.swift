@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         cluesLabel.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
         answersLabel.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
         
-        
+         
         NSLayoutConstraint.activate([
             
             scoreLabel.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor),
@@ -97,12 +97,22 @@ class ViewController: UIViewController {
 
             ])
         
-        cluesLabel.backgroundColor = .red
-        answersLabel.backgroundColor = .blue
-        currentAnswer.backgroundColor = .yellow
-        submit.backgroundColor = .lightGray
-        clear.backgroundColor = .lightGray
-        buttonsView.backgroundColor = .green
+        let width = 150
+        let height = 80
+        
+        // create 20 buttons as a 4x5 grid
+        for row in 0...3 {
+            for column in 0...4 {
+                let letterButton = UIButton(type: .system)
+                letterButton.titleLabel?.font = UIFont.systemFont(ofSize: 36)
+                letterButton.setTitle("WWW", for: .normal)
+                
+                letterButton.frame = CGRect(x: column * width, y: row * height, width: width, height: height)
+                
+                buttonsView.addSubview(letterButton)
+                letterButtons.append(letterButton)
+            }
+        }
     }
     
     override func viewDidLoad() {
