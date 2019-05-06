@@ -17,5 +17,6 @@ Comments:
     - in general, the higher priority, the higher AL tries to satisfy them
 - for buttons there is special method addTarget to connect them to some other code
 - #selector(submitTapped(_:)) and #selector(submitTapped) are the same
-
+- enumerated() method can be used to get item from the array as well as its position in the array
+- trimmingCharacters(in:) with parameter .whitespacesAndNewlines allows to trim spaces, tabs and line breaks
 
