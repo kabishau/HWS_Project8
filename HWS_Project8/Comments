@@ -2,6 +2,8 @@ Steps:
 1. create property to store parts of UI
 2. override loadView() method to load UI programmatically
 3. create UI elements and add constraints
+4. create methods and add them using addTarget to the buttons
+
 
 
 
@@ -13,5 +15,7 @@ Comments:
     - content huggin priority - determines how likely view is to be larger than its intrinsic size (the less value, the more likely it will be stretched)
     - content compression resistence priority - chances of the view to become smaller than its intrinsic size
     - in general, the higher priority, the higher AL tries to satisfy them
+- for buttons there is special method addTarget to connect them to some other code
+- #selector(submitTapped(_:)) and #selector(submitTapped) are the same
 
 

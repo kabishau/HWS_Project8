@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450180CA2280C39A00A465D2 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 450180C92280C39A00A465D2 /* level1.txt */; };
 		45876B8F227DF694003D2DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45876B8E227DF694003D2DF0 /* AppDelegate.swift */; };
 		45876B91227DF694003D2DF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45876B90227DF694003D2DF0 /* ViewController.swift */; };
 		45876B94227DF694003D2DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45876B92227DF694003D2DF0 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450180C92280C39A00A465D2 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		45876B8B227DF694003D2DF0 /* HWS_Project8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWS_Project8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45876B8E227DF694003D2DF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45876B90227DF694003D2DF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				45876B95227DF694003D2DF0 /* Assets.xcassets */,
 				45876B97227DF694003D2DF0 /* LaunchScreen.storyboard */,
 				45876B9A227DF694003D2DF0 /* Info.plist */,
+				450180C92280C39A00A465D2 /* level1.txt */,
 			);
 			path = HWS_Project8;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450180CA2280C39A00A465D2 /* level1.txt in Resources */,
 				45876B99227DF694003D2DF0 /* LaunchScreen.storyboard in Resources */,
 				45876B96227DF694003D2DF0 /* Assets.xcassets in Resources */,
 				45876BA1227DF888003D2DF0 /* Comments in Resources */,
